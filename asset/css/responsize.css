@@ -1,0 +1,159 @@
+/* sub PC  */
+@media (min-width: 64em) and (max-width: 77.4375em) {
+    .wide .l-8,
+    .wide .l-12,
+    .subnav .product,
+    .subnav .subnav__head-btn {
+        display: flex;
+    }
+    .subnav__head-sublist li a {
+        background-color: #ddd;
+        color: #000;
+        padding: 10px 5px;
+    }
+    .searchtop .searchtop__search {
+        display: flex;
+    }
+    .container .navmobile {
+        display: none;
+    }
+    .scan-download-app a img {
+        max-width: 100%;
+    }
+    .scan-download-app {
+        width: 95px;
+    }
+}
+
+
+/* Tablet >  */
+@media (max-width: 63.9375em) {
+    .m-0 {
+        display: none;
+    }
+    .searchtop{
+        padding: 10px 0;
+    }
+    .header {
+        padding: 0;
+    }
+    .search-sub_angle {
+        top: 65px;
+    }
+    .searchtop__search {
+        height: 50px;
+    }
+    .searchtop__search-input {
+        height: 50px;
+        font-size: 18px;
+    }
+    .navmobile {
+        display: block;
+        margin-top: 15px;
+        overflow: auto;
+    }
+    .navtabletmobile {
+        display: block;
+    }
+    
+}
+
+
+/* Tablet  */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .m-0 {
+        display: none;
+    }
+
+    .searchtop__search-sub {
+        line-height: 60px;
+    }
+
+    .searchtop__search-sub .ti-search {
+        padding: 12px 30px 15.5px;
+    }
+    
+    .subproduc {
+        width: 215px;
+    }
+
+    .subproduc img {
+        width: 213px;
+    }
+    
+    
+}
+
+/* Mobile  */
+
+@media (max-width: 46.1875em) {
+
+    .searchtop__search-input {
+        width: 200px;
+    }
+
+    .searchtop__search {
+        width: 695px;
+        margin: auto;
+        max-width: 100%;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    .shopping {
+        display: none;
+    }
+    .searchtop__search-sub .ti-search {
+        padding: 15px 30px 15px;
+    }
+    .searchtop__search-sub li {
+        margin-top: -6px;
+    }
+    .searchtop__search-sub li:first-child {
+        padding: 0 5px 0 0;
+        font-size: 16px;
+        margin-top: -8px;
+    }
+    .search-sub_angle {
+        margin-left: -5px;
+        top: 65px;
+    }
+    .search-sub_angle p {
+        padding: 5px 14px 5px 5px;
+    }
+    .product {
+        justify-content: space-evenly;
+    }
+    .navmobile {
+        display: block;
+        overflow: auto;
+    }
+    .subproduc {
+        width: 47%;
+    }
+    .subproduc img {
+        width: 350px;
+        max-width: 100%;
+    }
+    .seemore {
+        padding: 0 20px;
+    }
+    
+}
+
+/* submobile  */
+@media (max-width: 30em) {
+
+    .searchtop__search-sub li:first-child {
+        display: none;
+    }
+    .subproduc {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .subproduc img {
+        width: 500px;
+        max-width: 100%;
+    }
+}
